@@ -28,13 +28,16 @@ git 基本操作</br>
 		$git checkout <目标分支>
 		$git merge <分支名称>
 		
-	9. 
+	9. 创建标签
+		$git tag -a <TAG 名称> -m 'tag log message'   #创建一个标签
+		$git push orgin --tags   #将标签提交到远程仓库
 		
 
 git ask </br>
-	0. 为什么使用git?</br>
 	1. 为什么需要使用branch？</br>
+		在不影响主分支的情况下， 进行新功能的开发
 	2. 为什么需要使用TAG?</br>
+		保存稳定版本的代码
 	
 	
 	
