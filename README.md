@@ -1,7 +1,7 @@
 git 基本操作
-	1. 初始化一个本地仓库
+	1. 初始化一个本地仓库</br>
 		$git init
-	2. 将
+	2. 将  </br>
 		$git add .
 		或者
 		$git add file1, file2, ...
@@ -20,5 +20,22 @@ git 基本操作
 		$git branch branch1  # 现在仅在本地建立了一个分支
 		$git checkout branch1 # 切换到branch1分支
 		$git push origin branch1 #将本地分支提交到远程仓库
+	
+	7. 删除一个分支
+		$git branch -d <分支名称> #删除本地分支
+		$git push origin :<分支名称> #删除远程分支
+	
+	8. 分支合并
+		$git checkout <目标分支>
+		$git merge <分支名称>
+		
+	9. 
+		
+
+git ask
+	0. 为什么使用git?
+	1. 为什么需要使用branch？
+	2. 为什么需要使用TAG?
+	
 	
 	
