@@ -1,11 +1,14 @@
 git 基本操作</br>					<br/>
+
 	1. 初始化一个本地仓库			<br/>
 		$git init					<br/>
+		
 	2. 将  							<br/>					
 		$git add .					<br/>
 		或者						<br/>
 		$git add file1, file2, ...		<br/>
 		$git commit -m '提交的log信息'	<br/>
+		
 	3. 关联到远程git仓库 （远程git仓库应该存在）					<br/>
 		$git remote add origin https://github.com/Edjies/trygit.git	<br/>
 	
