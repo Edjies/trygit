@@ -1,11 +1,10 @@
-git 基本操作
-	1. 初始化一个本地仓库</br>
+git 基本操作</br>
+	1. 初始化一个本地仓库
 		$git init
 	2. 将  </br>
 		$git add .
-		或者
+		或者</br>
 		$git add file1, file2, ...
-		
 		$git commit -m '提交的log信息'
 	3. 关联到远程git仓库 （远程git仓库应该存在）
 		$git remote add origin https://github.com/Edjies/trygit.git
@@ -32,10 +31,10 @@ git 基本操作
 	9. 
 		
 
-git ask
-	0. 为什么使用git?
-	1. 为什么需要使用branch？
-	2. 为什么需要使用TAG?
+git ask </br>
+	0. 为什么使用git?</br>
+	1. 为什么需要使用branch？</br>
+	2. 为什么需要使用TAG?</br>
 	
 	
 	
